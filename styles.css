@@ -1,0 +1,68 @@
+.main {
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.main-grid {
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+img {
+    height: 80px;
+}
+
+.main-container {
+    width: 400px;
+    height: 320px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #dbdddf, -5px -5px 5px #dbdddf;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.main-container span {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.main-container input {
+    height: 50px;
+}
+
+.main-container input::placeholder {
+    color: gainsboro
+}
+
+.link {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link a {
+    text-align: none;
+    text-align: center;
+}
+
+.w-store {
+    color: red;
+}
+
+@media only screen and (max-width: 576px) {
+    .main-container {
+        width: 300px;
+        height: 320px;
+    }
+    .main-container input {
+        height: 40px;
+    }
+    img {
+        height: 60px;
+    }
+}
